@@ -1,34 +1,69 @@
 <template>
 <div id="principal">
- <v-sheet elevation="8">
-    <v-tabs
+     <!-- <v-sheet elevation="8">
+<v-tabs
       background-color="red"
       dark
-      next-icon="mdi-arrow-right-bold-box-outline"
-      prev-icon="mdi-arrow-left-bold-box-outline"
       show-arrows
     >
       <v-tabs-slider color="yellow"></v-tabs-slider>
-      <v-tab :to="{ name: 'contenido' }">Contenido
-          <v-icon   x-small class="mb-8"></v-icon>
+      <v-tab :to="{ name: 'contenido' }" class="font-italic">Contenido
+          <v-icon   x-small class="mb-5"></v-icon>
           </v-tab>
 
-          <v-tab :to="{ name: 'actividades' }" class="text-decoration-none mx-auto px-1 tabs_box">Actividades
-            <v-icon x-large class="mb-8"></v-icon>
+          <v-tab :to="{ name: 'actividades' }" class="font-italic">Actividades
           </v-tab>
 
-        <v-tab :to="{ name: 'evaluacion' }" class="text-decoration-none mx-auto px-1 tabs_box">Evaluación
-            <v-icon x-large class="mb-8">fas fa-clipboard-check</v-icon>
+        <v-tab :to="{ name: 'evaluacion' }" class="font-italic">Evaluación
+            <v-icon x-large class="mb-5">fas fa-clipboard-check</v-icon>
           </v-tab>
           
-          <v-tab :to="{ name: 'creditos' }" class="text-decoration-none mx-auto px-1 tabs_box">Creditos
-            <v-icon x-large class="mb-8">fas fa-clipboard-check</v-icon>
+          <v-tab :to="{ name: 'creditos' }" class="font-italic">Creditos
+            <v-icon x-large class="mb-5">fas fa-clipboard-check</v-icon>
           </v-tab>
-
+          
     </v-tabs>
  
-  </v-sheet>
+  </v-sheet>-->
     
+  <v-card>
+    <v-tabs
+      v-model="tab"
+      background-color="deep-purple accent-4"
+      centered
+      dark
+      icons-and-text
+    >
+      <v-tabs-slider></v-tabs-slider>
+
+      <v-tab :to="{ name: 'contenido' }" href="#tab-1">
+        <v-icon>Contenido</v-icon>
+      </v-tab>
+
+      <v-tab :to="{ name: 'actividades' }" href="#tab-2">
+        <v-icon>Actividades</v-icon>
+      </v-tab>
+
+      <v-tab :to="{ name: 'evaluacion' }" href="#tab-3">
+        <v-icon>Evaluación</v-icon>
+      </v-tab>
+       <v-tab :to="{ name: 'creditos' }" href="#tab-4">
+        <v-icon>Creditos</v-icon>
+      </v-tab>
+    </v-tabs>
+
+    <v-tabs-items v-model="tab">
+      <v-tab-item
+        v-for="i in 3"
+        :key="i"
+        :value="'tab-' + i"
+      >
+        <v-card flat>
+          <v-card-text>{{ text }}</v-card-text>
+        </v-card>
+      </v-tab-item>
+    </v-tabs-items>
+  </v-card>
 
 
  <!-- <v-img
