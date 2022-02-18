@@ -2,7 +2,7 @@
 <v-app>
     <v-row class="mt-5">
     <v-col>
-    <v-card class="mx-auto py-2"  rounded max-width="600" elevation="9">
+ 
       <v-row justify="center">
         <div class="title_proyect">
           <h2>RESPONSABLES DEL PROYECTO</h2>
@@ -11,11 +11,11 @@
       <v-row class="box-card" justify="center" >
         <div class="usuario1" />
         <div class="descripcion">
-          <div class="title_name">
-            <h3>GABRIEL MONTIEL</h3>
+          <div class="nombredetitulo">
+            <h3>Michael Steven Barrios Martínez</h3>
           </div>
-          <div class="parrafo_name">
-            <p>Programador/Investigador<br>
+          <div class="nombredelparrafo">
+            <p>Programador/Investigador/Diseñador<br>
               </p>
           </div>
         </div>
@@ -24,11 +24,11 @@
       <v-row class="box-card" justify="center">
         <div class="usuario2" />
         <div class="descripcion">
-          <div class="title_name">
-            <h3>JHOAN FERNANDEZ</h3>
+          <div class="nombredetitulo">
+            <h3>Jesús Alberto Vargas Soto</h3>
           </div>
-          <div class="parrafo_name">
-            <p>Investigador/ el de los richard
+          <div class="nombredelparrafo">
+            <p>Programador/Investigador
             </p>
           </div>
         </div>
@@ -37,11 +37,11 @@
       <v-row class="box-card" justify="center">
         <div class="usuario3" />
         <div class="descripcion">
-          <div class="title_name">
-            <h3>LUIS VAZQUES</h3>
+          <div class="nombredetitulo">
+            <h3>Jhonatan Salas de la Rosa</h3>
           </div>
-          <div class="parrafo_name">
-            <p>Investigador/Diseñador</p>
+          <div class="nombredelparrafo">
+            <p>Investigador</p>
           </div>
         </div>
       </v-row>
@@ -49,20 +49,20 @@
       <v-row class="box-card" justify="center">
         <div class="usuario4" />
         <div class="descripcion">
-          <div class="title_name">
-            <h3>JESUS VENENCIA</h3>
+          <div class="nombredetitulo">
+            <h3>Juan Sebastián Tirado Verbe</h3>
           </div>
-          <div class="parrafo_name">
+          <div class="nombredelparrafo">
             <p> Investigador</p>
           </div>
         </div>
       </v-row>
 
-    </v-card>
+   
     </v-col>
 
     <v-col>
-    <v-card class="py-1 mx-auto" rounded max-width="480" elevation="5">
+   
       <v-row justify="center">
         <div class="title_proyect">
           <h2>UNIVERSIDAD DE CORDOBA</h2>
@@ -71,9 +71,9 @@
       <v-row class="box-card" justify="center">
         <div class="logo" />
       </v-row>
-    </v-card>
 
-    <v-card class="py-1 mt-5 mx-auto" rounded max-width="480" elevation="5">
+
+   
       <v-row justify="center">
         <div class="title_proyect">
           <h2>DOCENTE</h2>
@@ -82,15 +82,14 @@
         <v-row class="box-card" justify="center">
         <div class="usuario6" />
         <div class="descripcion">
-          <div class="title_name">
+          <div class="nombredetitulo">
             <h3>ALY BENHUR CULCHAC DE LA VEGA</h3>
           </div>
-          <div class="parrafo_name">
+          <div class="nombredelparrafo">
             <p>En Tecnicas Avanzadas de Programación</p>
           </div>
         </div>
       </v-row>
-    </v-card>
 
     </v-col>
     </v-row>
@@ -99,8 +98,11 @@
 
 
 <style>
+.title_proyect{
+    color: rgb(255, 255, 255);
+}
 .box-card {
-  margin: 20px 0px 10px 0px;
+  margin: 10px 0px 5px 0px;
 }
 .descripcion {
   padding-left: 60px;
@@ -108,20 +110,20 @@
   width: 400px;
   height: 50px;
 }
-.title_name {
+.nombredetitulo {
   border-radius: 10px 10px 0px 0px;
   padding-left: 60px;
   margin-left: -50px;
   background-color: rgba(0, 0, 0, 0.3);
-  color: rgb(5, 5, 5);
+  color: rgb(255, 255, 255);
 }
-.parrafo_name {
+.nombredelparrafo {
   border-radius: 10px 0px 0px 0px;
   padding-left: 60px;
   margin-left: -50px;
   height: 100%;
-  background-color: rgba(113, 14, 138, 0.9);
-  color: rgb(0, 0, 0);
+  background-color: rgba(172, 9, 158, 0.9);
+  color: rgb(255, 255, 255);
 }
 .usuario1 {
   border-radius: 100%;
@@ -170,13 +172,11 @@
   z-index: 2;
 }
 .usuario6 {
-  border-radius: 100%;
   background-image: url();
-  background-size: cover;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   position: relative;
-  z-index: 2;
+  z-index: 8;
 }
 </style>
 <script>
