@@ -80,7 +80,7 @@
         </div>
       </v-row>
         <v-row class="box-card" justify="center">
-        <div class="usuario6" />
+        <div class="aly" />
         <div class="descripcion">
           <div class="nombredetitulo">
             <h3>ALY BENHUR CULCHAC DE LA VEGA</h3>
@@ -171,7 +171,7 @@ background-image: url(../assets/Team/Michael_Barrios.jpg);
   position: relative;
   z-index: 2;
 }
-.usuario6 {
+.aly {
     border-radius: 100%;
     background-image: url(../assets/Team/Aly.jpeg);
      background-size: cover;   
