@@ -15,7 +15,6 @@
   plain
   raised
   rounded
-  small
   text
   tile
   x-large
