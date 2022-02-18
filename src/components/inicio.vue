@@ -4,29 +4,20 @@
     
 
     <v-main>
-      <br>
-      <h1 class="title"><span style="font-size: 100px;">SEÑALES </span> </h1>
-      <h3 class="subtitle"><span style="font-size: 100px;">DE TRANSITO</span></h3>
-      <br>
-      
-   
-  
 <div class="icon">
       <router-link to="/entrada">
       <v-btn
            class="mx-2"
   color="accent"
   depressed
-  elevation="24"
+  elevation="44"
   outlined
   plain
   raised
   rounded
-  small
   text
   tile
   x-large
-  x-small
   position: bottom
             >
               <v-icon color="white">mdi-arrow-up-circle-outline</v-icon>
@@ -60,34 +51,25 @@ export default {
 #app {
   background: url('../assets/Background/1.jpg') no-repeat center center fixed !important;
   background-size: cover;
-  
-}
+  position: relative;
+  overflow-x:hidden; 
+  overflow-y:hidden;
+} 
 .title {
-   align-content: right;
-    align-items: right;
-     padding-top: 90px;
-    padding-left: 20%;
-    position: relative;
-  bottom: -90px;
-   right: 300px;
-   font-size: 50px;
-  width: -100px;
-  display: flex;
-  justify-content: center;
-  /* Fin del codigo para centrar*/
+color:  rgb(255, 255, 255);
+text-align: right;
+position: relative;
+  bottom: -200px;
+   right: 200px;
 }
 .subtitle {
-align-content: right;
-    align-items: right;
-     padding-top: 90px;
-    padding-left: 20%;
-    position: relative;
-  bottom: -90px;
-   right: 300px;
-   font-size: 50px;
-  width: -100px;
-  display: flex;
-  justify-content: center;
+  color:  white;
+text-align: right;
+position: relative;
+  bottom: -220px;
+   right: 170px;
+   font-size: 35px;
+  
 }
 body{
   margin: 0; 
@@ -96,24 +78,8 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-h1 {
-  color: black;
-}
-h3{
-  color: black;
-}
+
 .icon {
-    align-content: right;
-    align-items: right;
-    padding-left: 55%;
-    position: relative;
-  bottom: 590px;
-   right: -200px;
-   font-size: 50px;
-    align-content: right;
-    align-items: right;
-     padding-top: 480px;
-    position: relative;
-    
+     padding-top: 1006px;
 }
 </style>
