@@ -4,6 +4,14 @@
     
 
     <v-main>
+      <div class="img">
+        <v-img
+      src="../assets/Background/texto_inicio.png"
+      max-width="1000"
+ 
+    >
+        </v-img>
+      </div>
 <div class="icon">
       <router-link to="/entrada">
       <v-btn
@@ -49,7 +57,7 @@ export default {
 
 <style>
 #app {
-  background: url('../assets/Background/1.jpg') no-repeat center center fixed !important;
+  background: url('../assets/Background/4.jpg') no-repeat center center fixed !important;
   background-size: cover;
   position: relative;
   overflow-x:hidden; 
@@ -80,6 +88,14 @@ body{
 }
 
 .icon {
-     padding-top: 1006px;
+     padding-top: 340px;
+}
+.img{
+  text-align: right;
+position: relative;
+  bottom: -11px;
+   right: -160px;
+   font-size: 35px;
+  
 }
 </style>
