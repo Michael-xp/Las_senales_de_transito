@@ -10,7 +10,7 @@
            class="mx-2"
   color="accent"
   depressed
-  elevation="24"
+  elevation="44"
   outlined
   plain
   raised
@@ -19,7 +19,6 @@
   text
   tile
   x-large
-  x-small
   position: bottom
             >
               <v-icon color="white">mdi-arrow-up-circle-outline</v-icon>
@@ -82,6 +81,6 @@ body{
 }
 
 .icon {
-     padding-top: 980px;
+     padding-top: 1006px;
 }
 </style>
