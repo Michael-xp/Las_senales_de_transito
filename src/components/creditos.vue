@@ -9,7 +9,7 @@
         </div>
       </v-row>
       <v-row class="box-card" justify="center" >
-        <div class="usuario1" />
+        <div class="michael" />
         <div class="descripcion">
           <div class="nombredetitulo">
             <h3>Michael Steven Barrios Martínez</h3>
@@ -22,7 +22,7 @@
       </v-row>
 
       <v-row class="box-card" justify="center">
-        <div class="usuario2" />
+        <div class="jesus" />
         <div class="descripcion">
           <div class="nombredetitulo">
             <h3>Jesús Alberto Vargas Soto</h3>
@@ -35,7 +35,7 @@
       </v-row>
 
       <v-row class="box-card" justify="center">
-        <div class="usuario3" />
+        <div class="jhonatan" />
         <div class="descripcion">
           <div class="nombredetitulo">
             <h3>Jhonatan Salas de la Rosa</h3>
@@ -47,7 +47,7 @@
       </v-row>
 
       <v-row class="box-card" justify="center">
-        <div class="usuario4" />
+        <div class="juan" />
         <div class="descripcion">
           <div class="nombredetitulo">
             <h3>Juan Sebastián Tirado Verbe</h3>
@@ -125,18 +125,18 @@
   background-color: rgba(172, 9, 158, 0.9);
   color: rgb(255, 255, 255);
 }
-.usuario1 {
-  border-radius: 100%;
-  background-image: url();
+.michael {
+  border-radius: 90%;
+background-image: url(../assets/Team/Michael_Barrios.jpg);
   background-size: cover;
   width: 80px;
   height: 80px;
   position: relative;
   z-index: 2;
 }
-.usuario2 {
-  border-radius: 100%;
-  background-image: url();
+.jesus {
+  border-radius: 90%;
+  background-image: url(../assets/Team/Jesus_Vargas.jpg);
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -144,18 +144,18 @@
   
   z-index: 2;
 }
-.usuario3 {
-  border-radius: 100%;
-  background-image: url();
+.jhonatan {
+  border-radius: 90%;
+  background-image: url(../assets/Team/Jhonatan.jpeg);
   background-size: cover;
   width: 80px;
   height: 80px;
   position: relative;
   z-index: 2;
 }
-.usuario4 {
-  border-radius: 100%;
-  background-image: url();
+.juan {
+  border-radius: 90%;
+  background-image: url(../assets/Team/Juan_Tirado.jpg);
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -172,11 +172,13 @@
   z-index: 2;
 }
 .usuario6 {
-  background-image: url();
-  width: 90px;
-  height: 90px;
-  position: relative;
-  z-index: 8;
+    border-radius: 100%;
+    background-image: url(../assets/Team/Aly.jpeg);
+     background-size: cover;   
+     width: 90px;
+     height: 90px;
+     position: relative;
+     z-index: 2;
 }
 </style>
 <script>
