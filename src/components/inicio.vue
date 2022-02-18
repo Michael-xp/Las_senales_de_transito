@@ -27,8 +27,9 @@
   tile
   x-large
   x-small
+  position: bottom
             >
-              <v-icon color="white">START</v-icon>
+              <v-icon color="white">mdi-arrow-up-circle-outline</v-icon>
             </v-btn>
             </router-link>
             </div>
